@@ -12,7 +12,7 @@ stg.folder_model = "Model_Findsim";
 
 % Name of the excel file with the sbtab
 % (SBtab excel name)
-stg.sbtab_excel_name = "SBTAB_Findsim_converted.xlsx";
+stg.sbtab_excel_name = "SBTAB_Findsim.xlsx";
 
 % Name of the model
 % (Name)
