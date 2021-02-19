@@ -1,4 +1,4 @@
-function [stg] = f_settings_all_Findsim()
+function [stg] = f_settings_all_Findsim_debug()
 
 %% Import
 
@@ -8,11 +8,11 @@ function [stg] = f_settings_all_Findsim()
 
 % Name of the folder where everything related to the model is stored
 % (Folder Model)
-stg.folder_model = "Model_Findsim_debug";
+stg.folder_model = "Model_Findsim";
 
 % Name of the excel file with the sbtab
 % (SBtab excel name)
-stg.sbtab_excel_name = "SBTAB_Findsim.xlsx";
+stg.sbtab_excel_name = "SBTAB_Findsim_debug.xlsx";
 
 % Name of the model
 % (Name)

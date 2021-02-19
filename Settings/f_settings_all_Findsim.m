@@ -55,7 +55,7 @@ stg.rseed = 2;
 
 % True or false to decide whether to save results
 % (Save results)
-stg.save_results = false;
+stg.save_results = true;
 
 % True or false to decide whether to run detailed simulation for plots
 % (Save results)
