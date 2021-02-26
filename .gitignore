@@ -2,14 +2,11 @@
 **/Data/*.sbproj
 *.sbproj
 **/Results/*
-!**/Results/Analysis_GSA_example/
-!**/Results/Analysis_diagnostics_example/
+!**/Results/Examples/
 **/Formulas/*.m
 **/Data/Exp/*.mat
 *.xml
 *.m
 *.tsv
-!**/tsv/Viswan_2018/*.tsv
-!**/tsv/Viswan_2018_optimized/*.tsv
-!**/tsv/Viswan_2018_unnormalized/*.tsv
+!**/tsv/
 !**/Settings/*.m
