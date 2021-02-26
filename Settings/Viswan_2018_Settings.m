@@ -51,7 +51,7 @@ stg.save_results = true;
 
 % True or false to decide whether to run detailed simulation for plots
 % (Save results)
-stg.simdetail = false;
+stg.simdetail = true;
 
 %% Simulation
 
