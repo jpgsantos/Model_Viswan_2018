@@ -1,4 +1,4 @@
-function [stg] = f_settings_all_Findsim()
+function [stg] = Viswan_2018_Settings_unnormalized()
 
 %% Import
 
@@ -8,15 +8,15 @@ function [stg] = f_settings_all_Findsim()
 
 % Name of the folder where everything related to the model is stored
 % (Folder Model)
-stg.folder_model = "Model_Findsim";
+stg.folder_model = "Model_Viswan_2018";
 
 % Name of the excel file with the sbtab
 % (SBtab excel name)
-stg.sbtab_excel_name = "SBTAB_Findsim.xlsx";
+stg.sbtab_excel_name = "SBTAB_Viswan_2018_unnormalized.xlsx";
 
 % Name of the model
 % (Name)
-stg.name = "Findsim";
+stg.name = "Viswan_2018_unnormalized";
 
 % Name of the default model compartment
 % (Compartment name)
