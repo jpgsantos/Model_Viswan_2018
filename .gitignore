@@ -9,5 +9,7 @@
 *.xml
 *.m
 *.tsv
-!**/tsv/*.tsv
+!**/tsv/Viswan_2018/*.tsv
+!**/tsv/Viswan_2018_optimized/*.tsv
+!**/tsv/Viswan_2018_unnormalized/*.tsv
 !**/Settings/*.m
