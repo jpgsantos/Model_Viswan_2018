@@ -1,4 +1,4 @@
-function [stg] = Viswan_2018_Settings_unnormalized()
+function [stg] = Viswan_2018_unnormalized()
 
 %% Import
 
@@ -12,7 +12,7 @@ stg.folder_model = "Model_Viswan_2018";
 
 % Name of the excel file with the sbtab
 % (SBtab excel name)
-stg.sbtab_excel_name = "SBTAB_Viswan_2018_unnormalized.xlsx";
+stg.sbtab_excel_name = "SBtab_Viswan_2018_unnormalized.xlsx";
 
 % Name of the model
 % (Name)
