@@ -132,10 +132,10 @@ K128	kf_R82	1/second	-0.69897	log10	-2.3219	0.2	-0.69897	Cell	SHC_phospho_cplx__
 K129	kf_R83	liter/(micromole*second)	0.27107	log10	0.90046	1.8667	0.27107	Cell	SHC_p_Sos_Grb2XGDP_Ras__Sos_Ras_GEF_cplx_1
 K130	kr_R83	1/second	-0.09691	log10	-0.32193	0.8	-0.09691	Cell	SHC_p_Sos_Grb2XGDP_Ras__Sos_Ras_GEF_cplx_2
 K131	kf_R84	1/second	-0.69897	log10	-2.3219	0.2	-0.69897	Cell	Sos_Ras_GEF_cplx__SHC_p_Sos_Grb2XGTP_Ras_1
-K132	kf_R85	1/second	1.1461	log10	3.8074	14	1.1461	Cell	PIP2XCa_PLC_g__DAGXIP3XCa_PLC_g_1
-K133	kr_R85	micromole/liter	1.9878	log10	6.6032	97.2215	1.9878	Cell	PIP2XCa_PLC_g__DAGXIP3XCa_PLC_g_2
-K134	kf_R86	1/second	1.7559	log10	5.8329	57	1.7559	Cell	PIP2XCa_PLC_g_p__DAGXIP3XCa_PLC_g_p_1
-K135	kr_R86	micromole/liter	1.2965	log10	4.3068	19.7915	1.2965	Cell	PIP2XCa_PLC_g_p__DAGXIP3XCa_PLC_g_p_2
+K132	Vmax_R85	1/second	1.1461	log10	3.8074	14	1.1461	Cell	PIP2XCa_PLC_g__DAGXIP3XCa_PLC_g_1
+K133	Kcat_R85	micromole/liter	1.9878	log10	6.6032	97.2215	1.9878	Cell	PIP2XCa_PLC_g__DAGXIP3XCa_PLC_g_2
+K134	Vmax_R86	1/second	1.7559	log10	5.8329	57	1.7559	Cell	PIP2XCa_PLC_g_p__DAGXIP3XCa_PLC_g_p_1
+K135	Kcat_R86	micromole/liter	1.2965	log10	4.3068	19.7915	1.2965	Cell	PIP2XCa_PLC_g_p__DAGXIP3XCa_PLC_g_p_2
 K136	kf_R87	liter/(micromole*second)	0.90163	log10	2.9951	7.9731	0.90163	Cell	PLCg_basalXPLC_g__PLC_g_phospho_cplx_1
 K137	kr_R87	1/second	0.30103	log10	1	2	0.30103	Cell	PLCg_basalXPLC_g__PLC_g_phospho_cplx_2
 K138	kf_R88	1/second	-0.30103	log10	-1	0.5	-0.30103	Cell	PLC_g_phospho_cplx__PLCg_basalXPLC_g_p_1
