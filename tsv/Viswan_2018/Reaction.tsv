@@ -1,4 +1,4 @@
-!!SBtab	SBtabVersion='1.0' Document='SBTAB_Viswan_2018' TableName='Reaction' TableTitle='SBTAB_Viswan_2018 Reaction' TableType = 'Reaction'					
+!!SBtab	SBtabVersion='1.0' Document='Viswan_2018' TableName='Reaction' TableTitle='Viswan_2018 Reaction' TableType = 'Reaction'					
 !ID	!Name	!KineticLaw	!IsReversible	!Location	!KineticLawType	!ReactionFormula
 R0	ReactionFlux0	kf_R1 * Ca * PKC_cytosolic-kr_R1 * PKC_Ca	true	Cell	MassAction	Ca + PKC_cytosolic <=> PKC_Ca
 R1	ReactionFlux1	kf_R2 * DAG * PKC_Ca-kr_R2 * PKC_Ca_DAG	true	Cell	MassAction	DAG + PKC_Ca <=> PKC_Ca_DAG
@@ -84,8 +84,8 @@ R80	ReactionFlux80	kf_R81 * L_EGFR * SHC-kr_R81 * SHC_phospho_cplx	true	Cell	Mas
 R81	ReactionFlux81	kf_R82 * SHC_phospho_cplx	false	Cell	MassAction	SHC_phospho_cplx <=> L_EGFR + SHC_p
 R82	ReactionFlux82	kf_R83 * SHC_p_Sos_Grb2 * GDP_Ras-kr_R83 * Sos_Ras_GEF_cplx	true	Cell	MassAction	SHC_p_Sos_Grb2 + GDP_Ras <=> Sos_Ras_GEF_cplx
 R83	ReactionFlux83	kf_R84 * Sos_Ras_GEF_cplx	false	Cell	MassAction	Sos_Ras_GEF_cplx <=> SHC_p_Sos_Grb2 + GTP_Ras
-R84	ReactionFlux84	(kf_R85*PIP2*Ca_PLC_g/(kr_R85+PIP2))	true	Cell	Henri-Michaelis-Menten	PIP2 + Ca_PLC_g <=> DAG + IP3 + Ca_PLC_g
-R85	ReactionFlux85	(kf_R86*PIP2*Ca_PLC_g_p/(kr_R86+PIP2))	true	Cell	Henri-Michaelis-Menten	PIP2 + Ca_PLC_g_p <=> DAG + IP3 + Ca_PLC_g_p
+R84	ReactionFlux84	(Vmax_R85*PIP2*Ca_PLC_g/(Kcat_R85+PIP2))	false	Cell	Henri-Michaelis-Menten	PIP2 + Ca_PLC_g <=> DAG + IP3 + Ca_PLC_g
+R85	ReactionFlux85	(Vmax_R86*PIP2*Ca_PLC_g_p/(Kcat_R86+PIP2))	false	Cell	Henri-Michaelis-Menten	PIP2 + Ca_PLC_g_p <=> DAG + IP3 + Ca_PLC_g_p
 R86	ReactionFlux86	kf_R87 * PLCg_basal * PLC_g-kr_R87 * PLC_g_phospho_cplx	true	Cell	MassAction	PLCg_basal + PLC_g <=> PLC_g_phospho_cplx
 R87	ReactionFlux87	kf_R88 * PLC_g_phospho_cplx	false	Cell	MassAction	PLC_g_phospho_cplx <=> PLCg_basal + PLC_g_p
 R88	ReactionFlux88	kf_R89 * MKP_1 * MAPK_p-kr_R89 * MKP1_tyr_deph_cplx	true	Cell	MassAction	MKP_1 + MAPK_p <=> MKP1_tyr_deph_cplx

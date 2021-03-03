@@ -1,4 +1,4 @@
-!!SBtab	SBtabVersion='1.0' Document='SBTAB_Viswan_2018' TableName='E0' TableTitle='SBTAB_Viswan_2018 E0' TableType = 'QuantityMatrix'		
+!!SBtab	SBtabVersion='1.0' Document='Viswan_2018' TableName='E0' TableTitle='Viswan_2018 E0' TableType = 'QuantityMatrix'		
 !ID	!Time	>Y0	SD_Y0
 E0T0	2100	0.02	0.06
 E0T1	2400	1	0.01
