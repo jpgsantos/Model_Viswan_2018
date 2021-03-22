@@ -33,4 +33,4 @@ The scripts that reproduce figures in the Subcellular Workflow repository can be
 
 # References
 
-Viswan, N.A., HarshaRani, G.V., Stefan, M.I., Bhalla, U.S. (2018). FindSim: A framework for integrating neuronal data and signaling models. Frontiers in Neuroinformatics, 12, 38.  
+[Viswan, N.A., HarshaRani, G.V., Stefan, M.I., Bhalla, U.S. (2018). FindSim: A framework for integrating neuronal data and signaling models. Frontiers in Neuroinformatics, 12, 38.](https://doi.org/10.3389/fninf.2018.00038)
