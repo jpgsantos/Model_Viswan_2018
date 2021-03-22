@@ -29,22 +29,7 @@ Model from the FindSim framework by Viswan et al. 2018. The model represents an 
 
 # Tools for building and analyzing the model
 
-We have developed some custom tools for model development and analysis, including;
-
-* Model simulation, using MATLAB&reg;, subcellular aplication(STEPS), or NEURON
-* Analysis of selected parameter sets, using MATLAB&reg;
-* Parameter optimization, using MATLAB&reg;
-* Global Sensitivity analysis, using MATLAB&reg;
-* Conversion tools:
-
-  * SBtab(.xlsx) to SBtab(.tsv), using MATLAB&reg;
-  * SBtab(.xlsx) to MATLAB&reg; SimBiology&trade;(.m, .sbproj), using MATLAB&reg;
-  * MATLAB&reg; SimBiology&trade; to SBML(.xml), using MATLAB&reg;
-  * SBtab(.tsv) to VFGEN(.vf), using R
-  * SBtab(.tsv) to Mod(.mod), using R
-  * SBtab(.tsv) to SBML(.xml), using R
- 
-These tools can be found in this repository:
+We have developed some custom tools for model development and analysis. These tools and a fuller explanation of their capabilities can be found in this repository:
  
  https://github.com/jpgsantos/Subcellular_workflow 
 
