@@ -27,6 +27,24 @@ Model from the FindSim framework by Viswan et al. 2018. The model represents an 
 * GAP + GTP_Ras <=> GAP_inact_Ras_cplx
 * GAP_inact_Ras_cplx -> GAP + GDP_Ras
 
+# Tools for building and analyzing the model
+
+We have developed some custom tools for model development and analysis, including;
+
+* Model simulation, using MATLAB&reg;, subcellular aplication(STEPS), or NEURON
+* Analysis of selected parameter sets, using MATLAB&reg;
+* Parameter optimization, using MATLAB&reg;
+* Global Sensitivity analysis, using MATLAB&reg;
+* Conversion tools:
+
+  * SBtab(.xlsx) to SBtab(.tsv), using MATLAB&reg;
+  * SBtab(.xlsx) to MATLAB&reg; SimBiology&trade;(.m, .sbproj), using MATLAB&reg;
+  * MATLAB&reg; SimBiology&trade; to SBML(.xml), using MATLAB&reg;
+  * SBtab(.tsv) to VFGEN(.vf), using R
+  * SBtab(.tsv) to Mod(.mod), using R
+  * SBtab(.tsv) to SBML(.xml), using R
+
+
 # Tools to run the model
 
 The scripts that reproduce figures in the Subcellular Workflow repository can be found in https://github.com/jpgsantos/Subcellular_workflow 
