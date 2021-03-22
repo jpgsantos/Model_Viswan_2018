@@ -43,11 +43,10 @@ We have developed some custom tools for model development and analysis, includin
   * SBtab(.tsv) to VFGEN(.vf), using R
   * SBtab(.tsv) to Mod(.mod), using R
   * SBtab(.tsv) to SBML(.xml), using R
-
-
-# Tools to run the model
-
-The scripts that reproduce figures in the Subcellular Workflow repository can be found in https://github.com/jpgsantos/Subcellular_workflow 
+ 
+These tools can be found in this repository:
+ 
+ https://github.com/jpgsantos/Subcellular_workflow 
 
 # References
 
