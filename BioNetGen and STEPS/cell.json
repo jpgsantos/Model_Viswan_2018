@@ -1,0 +1,1 @@
+{"meshNameRoot": "cell", "scale": 1e-06, "structures": [{"tetIdxs": [0], "type": "compartment", "name": "Cell"}, {"triIdxs": [0], "type": "membrane", "name": "psd"}], "freeDiffusionBoundaries": []}
