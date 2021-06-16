@@ -1,13 +1,23 @@
 #  BioNetGen translation of SBtab [Viswan_2018](https://github.com/jpgsantos/Model_Viswan_2018) model 
-##### The model was translated from [SBtab](https://github.com/tlubitz/SBtab) model format to rule-based [BioNetGen language](http://bionetgen.org/) for the simulation with [STEPS](http://steps.sourceforge.net/STEPS/default.php) and [NFsim](http://michaelsneddon.net/nfsim/) solvers embedded in the [subcellular web app](https://subcellular.humanbrainproject.eu/ ) and with the [RuleBender](https://github.com/RuleWorld/rulebender)
+### The model was translated from [SBtab](https://github.com/tlubitz/SBtab) model format to rule-based [BioNetGen language](http://bionetgen.org/) for the simulation with [STEPS](http://steps.sourceforge.net/STEPS/default.php) and [NFsim](http://michaelsneddon.net/nfsim/) solvers embedded in the [subcellular web app](https://subcellular.humanbrainproject.eu/ ) and with the [RuleBender](https://github.com/RuleWorld/rulebender)
 #
+
 ### Conversion steps 
 
 - Run ***convert_Viswan_2018_for_STEPS_optimised_from_SBTAB_to_SBML.R*** in [RStudio](https://www.rstudio.com/products/rstudio/download/) to translate SBtab model to SBML. This step depends on [SBtab to SBML converter](https://github.com/a-kramer/SBtabVFGEN)
+
+
 - Run ***convert_Viswan_2018_for_STEPS_optimised_from_SBML_to_BNGL.ipynb*** [jupyter notebook](https://jupyter.org/) to translate SBML to BioNetGen language
+
+
 - Import the BioNetGen model (***SBTAB_Viswan_2018_alternative.bngl***) to the **[subcellular web app](https://subcellular.humanbrainproject.eu/ )**. Add spine geometry ( ***.json***, ***.node***, ***.ele***, ***.face*** files) and stimulation pattern (***stim_E0.tsv***). See the **[subcellular web app help](https://humanbrainproject.github.io/hbp-sp6-guidebook/online_usecases/subcellular_level/subcellular_app/subcellular_app.html)** for details
+
+
 - Simulate final model (***SBTAB_Viswan_2018_alternative.ebngl***) in the [subcellular web app](https://subcellular.humanbrainproject.eu/ ) using **STEPS** or **NFsim** solvers
+
+
 - Simulate the BioNetGen model with the [RuleBender](https://github.com/RuleWorld/rulebender)
+
 
 ### Files and folders
 
@@ -38,6 +48,7 @@
 ***SBTAB_Viswan_2018_for_STEPS_optimised*** - the folder containing **tsv** tables of ***Viswan_2018_for_STEPS_optimised.xlsx***
 
 ***sbml_to_bngl.py*** - the python tool for conversion of SBML models to BioNetGen language.
+
 
 ### Conversion of SBML to BioNetGen language
 
