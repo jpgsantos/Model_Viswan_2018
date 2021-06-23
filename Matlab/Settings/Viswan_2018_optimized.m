@@ -29,7 +29,6 @@ stg.sbtab_name = "SBtab_" + stg.name;
 %% Analysis
 
 % Experiments to run
-% stg.ms.exprun = [1,3,4];
 stg.exprun = [1,2];
 
 % Choice between 0,1,2 and 3 to change either and how to apply log10 to the
@@ -161,7 +160,7 @@ stg.plotoln = true;
 
 % Number of samples to use in SA
 % (Sensitivity analysis number of samples)
-stg.sansamples = 21600;
+stg.sansamples = 360;
 
 % True or false to decide whether to subtract the mean before calculating SI and
 % SIT
@@ -185,30 +184,7 @@ stg.sasamplemode = 2;
 % (Sensitivity analysis sampling sigma)
 stg.sasamplesigma = 0.1;
 
-%% Profile Likelihood
-
-% Parameter(optimization array) that is being worked on in a specific
-% iteration of PL (if -1 no parameter is being worked in PL)
-% (Profile Likelihood Index)
-stg.PLind = -1;
-
-% Which parameters to do PL on, it should be all parameters but can also be
-% a subset for testing purposes
-% (Profile Likelihood parameters to Test)
-stg.pltest = (1:15);
-
-% True or false to decide whether to do plots after calculating PL
-% (Profile Likelihood Plots)
-stg.plplot = true;
-
-% True or false to decide whether to run simulated annealing
-% (Profile Likelihood Simulated Annealing)
-stg.plsa = true;
-
-% 0 or 1 to decide whether to run fmincon
-% (Profile Likelihood FMincon)
-stg.plfm = false;
-
+stg.gsabootstrapsize = ceil(sqrt(stg.sansamples));
 %% Optimization
 
 %  Time for the optimization in seconds (fmincon does not respect this
