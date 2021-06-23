@@ -7,7 +7,7 @@
 - Run ***convert_Viswan_2018_for_STEPS_optimised_from_SBTAB_to_SBML.R*** in [RStudio](https://www.rstudio.com/products/rstudio/download/) to translate SBtab model to SBML. This step depends on [SBtab to SBML converter](https://github.com/a-kramer/SBtabVFGEN) and [LibSBML](http://sbml.org/Software/libSBML)
 
 
-- Run ***convert_Viswan_2018_for_STEPS_optimised_from_SBML_to_BNGL.ipynb*** [jupyter notebook](https://jupyter.org/) to translate from SBML to BioNetGen language
+- Run ***convert_Viswan_2018_for_STEPS_optimised_from_SBML_to_BNGL.ipynb*** [jupyter notebook](https://jupyter.org/) to translate from SBML to BioNetGen language. This step depends on ***sbml_to_bngl.py*** and on [LibSBML](http://sbml.org/Software/libSBML) or [pySB](http://pysb.org/)
 
 
 - Import the BioNetGen model (***SBTAB_Viswan_2018_alternative.bngl***) to the **[subcellular web app](https://subcellular.humanbrainproject.eu/ )**. Add spine geometry ( ***.json***, ***.node***, ***.ele***, ***.face*** files) and stimulation pattern (***stim_E0.tsv***). See the **[subcellular web app help](https://humanbrainproject.github.io/hbp-sp6-guidebook/online_usecases/subcellular_level/subcellular_app/subcellular_app.html)** for details
@@ -54,7 +54,7 @@
 
 The conversion is implemented in ***sbml_to_bngl.py*** python module.
 Two approaches are supported by *sbml_to_bngl.transform()* function:
-- if *converter='pysb'* - the converter based on the [Atomizer](https://ruleworld.github.io/atomizer/blog/basic/bng.html) implemented by pysb.importers.sbml.sbml_translator() function will be used. The [Atomizer](https://ruleworld.github.io/atomizer/blog/basic/bng.html) will try to modify the set of model molecules and reactions to convert them from reaction network to rule-based BioNetGen format. 
+- if *converter='pysb'* - the converter based on the [Atomizer](https://ruleworld.github.io/atomizer/blog/basic/bng.html) implemented in pysb.importers.sbml.sbml_translator() function within [pySB](http://pysb.org/) framework will be used. The [Atomizer](https://ruleworld.github.io/atomizer/blog/basic/bng.html) will try to modify the set of model molecules and reactions to convert them from reaction network to rule-based BioNetGen format. 
 - *if converter='plain'* - a libsbml based converter for sbml level 2, version 4 will be used. This converter produces a bngl approximation to reaction network format of a model. It is assumed that sbml models were obtained by importing a MATLAB simbiology model to sbml, or by translation of SBTAB model by [SBtab to SBML converter](https://github.com/a-kramer/SBtabVFGEN).
 
 Models expressed by SBML and SBTAB often are not fully competible with BNGL.
