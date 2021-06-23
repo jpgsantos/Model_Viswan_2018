@@ -4,10 +4,10 @@
 
 ### Conversion steps 
 
-- Run ***convert_Viswan_2018_for_STEPS_optimised_from_SBTAB_to_SBML.R*** in [RStudio](https://www.rstudio.com/products/rstudio/download/) to translate SBtab model to SBML. This step depends on [SBtab to SBML converter](https://github.com/a-kramer/SBtabVFGEN)
+- Run ***convert_Viswan_2018_for_STEPS_optimised_from_SBTAB_to_SBML.R*** in [RStudio](https://www.rstudio.com/products/rstudio/download/) to translate SBtab model to SBML. This step depends on [SBtab to SBML converter](https://github.com/a-kramer/SBtabVFGEN) and [LibSBML](http://sbml.org/Software/libSBML)
 
 
-- Run ***convert_Viswan_2018_for_STEPS_optimised_from_SBML_to_BNGL.ipynb*** [jupyter notebook](https://jupyter.org/) to translate SBML to BioNetGen language
+- Run ***convert_Viswan_2018_for_STEPS_optimised_from_SBML_to_BNGL.ipynb*** [jupyter notebook](https://jupyter.org/) to translate from SBML to BioNetGen language
 
 
 - Import the BioNetGen model (***SBTAB_Viswan_2018_alternative.bngl***) to the **[subcellular web app](https://subcellular.humanbrainproject.eu/ )**. Add spine geometry ( ***.json***, ***.node***, ***.ele***, ***.face*** files) and stimulation pattern (***stim_E0.tsv***). See the **[subcellular web app help](https://humanbrainproject.github.io/hbp-sp6-guidebook/online_usecases/subcellular_level/subcellular_app/subcellular_app.html)** for details
