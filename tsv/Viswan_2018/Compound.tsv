@@ -1,4 +1,4 @@
-!!SBtab	SBtabVersion='1.0' Document='Viswan_2018' TableName='Compound' TableTitle='Viswan_2018 Compound' TableType = 'Compound'								
+!!SBtab	SBtabVersion='1.0' Document='Viswan_2018' TableName='Compound' TableTitle='Compound' TableType = 'Compound'								
 !ID	!Name	!Unit	!InitialValue	!IsConstant	!Assignment	!Interpolation	!Type	!Location	!ReferenceDOI
 S0	PKC_Ca	micromole/liter	0	false	false	false	kinetic	Cell	
 S1	PKC_DAG_AA_p	micromole/liter	0	false	false	false	kinetic	Cell	
