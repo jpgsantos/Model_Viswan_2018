@@ -1,4 +1,4 @@
-!!SBtab	SBtabVersion='1.0' Document='Viswan_2018' TableName='Parameter' TableTitle='Viswan_2018 Parameter' TableType = 'Quantity'								
+!!SBtab	SBtabVersion='1.0' Document='Viswan_2018_optimized' TableName='Parameter' TableTitle='Parameter' TableType = 'Quantity'								
 !ID	!Name	!Unit	!DefaultValue	!Scale	!Value:log2	!Value:linspace	!Value:log10	!Location	!Comment
 K0	kf_R1	liter/(micromole*second)	-0.22185	log10	-0.73697	0.6	-0.22185	Cell	CaXPKC_cytosolic__PKC_Ca_1
 K1	kr_R1	1/second	-0.30103	log10	-1	0.5	-0.30103	Cell	CaXPKC_cytosolic__PKC_Ca_2

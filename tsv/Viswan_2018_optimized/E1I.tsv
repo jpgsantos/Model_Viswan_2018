@@ -1,4 +1,4 @@
-!!SBtab	SBtabVersion='1.0' Document='Viswan_2018' TableName='E1I' TableTitle='Viswan_2018 E1I' TableType = 'QuantityMatrix'	
+!!SBtab	SBtabVersion='1.0' Document='Viswan_2018_optimized' TableName='E1I' TableTitle='E1I' TableType = 'QuantityMatrix'	
 !ID	!Input_Time_S51	>S51
 E1IT0	0	0
 E1IT1	3600	0.001

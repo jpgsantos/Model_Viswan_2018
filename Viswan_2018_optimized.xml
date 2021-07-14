@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="SBTAB_Findsim">
+  <model id="Viswan_2018_Optimized">
     <listOfUnitDefinitions>
       <unitDefinition id="time">
         <listOfUnits>
@@ -300,10 +300,10 @@
       <parameter id="kf_R83" name="kf_R83" value="1.866665" units="liter_per_micromole_second"/>
       <parameter id="kr_R83" name="kr_R83" value="0.8" units="one_over_second"/>
       <parameter id="kf_R84" name="kf_R84" value="0.2" units="one_over_second"/>
-      <parameter id="kf_R85" name="kf_R85" value="14.0000000000001" units="one_over_second"/>
-      <parameter id="kr_R85" name="kr_R85" value="97.2214799999992" units="micromole_per_liter"/>
-      <parameter id="kf_R86" name="kf_R86" value="56.9999999999998" units="one_over_second"/>
-      <parameter id="kr_R86" name="kr_R86" value="19.7915200000001" units="micromole_per_liter"/>
+      <parameter id="Vmax_R85" name="Vmax_R85" value="14.0000000000001" units="one_over_second"/>
+      <parameter id="Km_R85" name="Km_R85" value="97.2214799999992" units="micromole_per_liter"/>
+      <parameter id="Vmax_R86" name="Vmax_R86" value="56.9999999999998" units="one_over_second"/>
+      <parameter id="Km_R86" name="Km_R86" value="19.7915200000001" units="micromole_per_liter"/>
       <parameter id="kf_R87" name="kf_R87" value="7.97311500000001" units="liter_per_micromole_second"/>
       <parameter id="kr_R87" name="kr_R87" value="2" units="one_over_second"/>
       <parameter id="kf_R88" name="kf_R88" value="0.5" units="one_over_second"/>
@@ -2515,7 +2515,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="ReactionFlux84" name="ReactionFlux84" reversible="true">
+      <reaction id="ReactionFlux84" name="ReactionFlux84" reversible="false">
         <listOfReactants>
           <speciesReference species="PIP2"/>
           <speciesReference species="Ca_PLC_g"/>
@@ -2533,13 +2533,13 @@
                 <divide/>
                 <apply>
                   <times/>
-                  <ci> kf_R85 </ci>
+                  <ci> Vmax_R85 </ci>
                   <ci> PIP2 </ci>
                   <ci> Ca_PLC_g </ci>
                 </apply>
                 <apply>
                   <plus/>
-                  <ci> kr_R85 </ci>
+                  <ci> Km_R85 </ci>
                   <ci> PIP2 </ci>
                 </apply>
               </apply>
@@ -2548,7 +2548,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="ReactionFlux85" name="ReactionFlux85" reversible="true">
+      <reaction id="ReactionFlux85" name="ReactionFlux85" reversible="false">
         <listOfReactants>
           <speciesReference species="PIP2"/>
           <speciesReference species="Ca_PLC_g_p"/>
@@ -2566,13 +2566,13 @@
                 <divide/>
                 <apply>
                   <times/>
-                  <ci> kf_R86 </ci>
+                  <ci> Vmax_R86 </ci>
                   <ci> PIP2 </ci>
                   <ci> Ca_PLC_g_p </ci>
                 </apply>
                 <apply>
                   <plus/>
-                  <ci> kr_R86 </ci>
+                  <ci> Km_R86 </ci>
                   <ci> PIP2 </ci>
                 </apply>
               </apply>
